@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Paso 1
+        let nombre = "Juan";
+        let apellido = "Perez";
+        let edad = 25;
+
+        alert(`Bienvenido ${nombre} ${apellido}, tu edad es ${edad}`);
+
+        // Paso 2
+        nombre = prompt("Por favor, ingresa tu nombre");
+        apellido = prompt("Por favor, ingresa tu apellido");
+        edad = prompt("Por favor, ingresa tu edad");
+
+        alert(`Bienvenido ${nombre} ${apellido}, tu edad es ${edad}`);
+
+        // Paso 3
+        const diasVividos = edad * 365;
+        alert(`Has vivido aproximadamente ${diasVividos} días desde que naciste.`);
+    </script>
+</body>
+</html>
